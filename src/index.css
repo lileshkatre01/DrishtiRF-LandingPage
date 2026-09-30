@@ -1,0 +1,50 @@
+/* ============================================
+   DrishtiRF Landing Page — Global Styles
+   ============================================ */
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --bg-primary: #020508;
+  --bg-secondary: #060d14;
+  --bg-card: #0a1520;
+  --bg-card-hover: #0d1c2e;
+  --accent-primary: #00d4ff;
+  --accent-secondary: #0066ff;
+  --accent-green: #00ff88;
+  --accent-amber: #ffaa00;
+  --accent-red: #ff4444;
+  --text-primary: #e8f0fe;
+  --text-secondary: #7aa2c8;
+  --text-muted: #3d5a73;
+  --border-color: #0f2840;
+  --border-glow: rgba(0, 212, 255, 0.15);
+  --font-mono: 'JetBrains Mono', 'Courier New', monospace;
+  --font-sans: 'Inter', -apple-system, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  overflow-x: hidden;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: var(--bg-primary); }
+::-webkit-scrollbar-thumb { background: var(--text-muted); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: var(--text-secondary); }
+
+/* Selection */
+::selection { background: rgba(0, 212, 255, 0.2); color: var(--accent-primary); }
