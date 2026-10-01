@@ -609,11 +609,15 @@ export default function App() {
                 <span className="dl-os-icon">⊞</span>
                 <span>Windows</span>
               </div>
-              <div className="dl-filename">DrishtiRF-v1.0-Setup.exe</div>
-              <div className="dl-size">~120 MB · Windows 10/11 x64</div>
-              <button className="dl-btn primary" onClick={() => alert('Software package coming soon — check back after official SIH release.')}>
+              <div className="dl-filename">DrishtiRF-Setup.exe</div>
+              <div className="dl-size">73 MB · Windows 10/11 x64</div>
+              <a
+                className="dl-btn primary"
+                href="https://github.com/lileshkatre01/DrishtiRF/releases/download/v1.0.0/DrishtiRF-Setup.exe"
+                download
+              >
                 ⬇ &nbsp;Download .exe
-              </button>
+              </a>
             </div>
 
             <div className="dl-card">
@@ -622,10 +626,15 @@ export default function App() {
                 <span>Linux</span>
               </div>
               <div className="dl-filename">DrishtiRF-v1.0-linux.zip</div>
-              <div className="dl-size">~115 MB · Ubuntu 20.04+ / Debian</div>
-              <button className="dl-btn secondary" onClick={() => alert('Software package coming soon — check back after official SIH release.')}>
-                ⬇ &nbsp;Download .zip
-              </button>
+              <div className="dl-size">Coming soon · Ubuntu 20.04+ / Debian</div>
+              <a
+                className="dl-btn secondary"
+                href="https://github.com/lileshkatre01/DrishtiRF/releases/tag/v1.0.0"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                ⬇ &nbsp;View Release
+              </a>
             </div>
 
             <div className="dl-card">
@@ -633,11 +642,16 @@ export default function App() {
                 <span className="dl-os-icon">⌥</span>
                 <span>Source</span>
               </div>
-              <div className="dl-filename">DrishtiRF-v1.0-src.tar.gz</div>
+              <div className="dl-filename">DrishtiRF-v1.0-src</div>
               <div className="dl-size">Python 3.10+ · React 19 · FastAPI</div>
-              <button className="dl-btn secondary" onClick={() => alert('Source code will be published after SIH evaluation.')}>
-                ⬇ &nbsp;Source Code
-              </button>
+              <a
+                className="dl-btn secondary"
+                href="https://github.com/lileshkatre01/DrishtiRF"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                ⬇ &nbsp;View on GitHub
+              </a>
             </div>
           </div>
 
