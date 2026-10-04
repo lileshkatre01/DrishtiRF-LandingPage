@@ -238,7 +238,7 @@ export default function App() {
 
           <div className="navbar-badges">
             <a href="#download" className="nav-download-btn">
-              <span>↓</span> Download v1.0
+              <span>↓</span> Download v1.1.0
             </a>
           </div>
         </div>
@@ -308,7 +308,7 @@ export default function App() {
             <a href="#download" className="cta-primary">
               <span className="cta-icon">⬇</span>
               Download Desktop Software
-              <span className="cta-version">v1.0 · Windows / Linux</span>
+              <span className="cta-version">v1.1.0 · Windows / Linux</span>
             </a>
             <a href="#features" className="cta-secondary">
               Explore Features →
@@ -610,13 +610,13 @@ export default function App() {
                 <span>Windows</span>
               </div>
               <div className="dl-filename">DrishtiRF-Setup.exe</div>
-              <div className="dl-size">73 MB · Windows 10/11 x64</div>
+              <div className="dl-size">74 MB · Windows 10/11 x64 · v1.1.0</div>
               <a
                 className="dl-btn primary"
-                href="https://github.com/lileshkatre01/DrishtiRF/releases/download/v1.0.0/DrishtiRF-Setup.exe"
+                href="https://github.com/lileshkatre01/DrishtiRF/releases/download/v1.1.0/DrishtiRF-Setup.exe"
                 download
               >
-                ⬇ &nbsp;Download .exe
+                ⬇ &nbsp;Download .exe (v1.1.0)
               </a>
             </div>
 
@@ -625,15 +625,15 @@ export default function App() {
                 <span className="dl-os-icon">🐧</span>
                 <span>Linux</span>
               </div>
-              <div className="dl-filename">DrishtiRF-v1.0-linux.zip</div>
+              <div className="dl-filename">DrishtiRF-v1.1-linux.zip</div>
               <div className="dl-size">Coming soon · Ubuntu 20.04+ / Debian</div>
               <a
                 className="dl-btn secondary"
-                href="https://github.com/lileshkatre01/DrishtiRF/releases/tag/v1.0.0"
+                href="https://github.com/lileshkatre01/DrishtiRF/releases/tag/v1.1.0"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                ⬇ &nbsp;View Release
+                ⬇ &nbsp;View Release (v1.1.0)
               </a>
             </div>
 
