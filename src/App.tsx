@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from 'react'
 import './App.css'
+import logoPng from './assets/logo.png'
 
 /* ─── Animated Spectrum Canvas ─── */
 function SpectrumCanvas() {
@@ -227,8 +228,8 @@ export default function App() {
       <nav className="navbar">
         <div className="navbar-inner">
           <div className="navbar-logo">
-            <div className="logo-icon">
-              <span className="logo-eye">◉</span>
+            <div className="logo-icon" style={{ overflow: 'hidden', padding: 0 }}>
+              <img src={logoPng} alt="DrishtiRF Logo" style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
             </div>
             <div className="logo-text">
               <span className="logo-name">DrishtiRF</span>
@@ -670,7 +671,7 @@ export default function App() {
         <div className="footer-inner">
           <div className="footer-logo-row">
             <div className="footer-brand">
-              <span className="footer-eye">◉</span>
+              <img src={logoPng} alt="DrishtiRF Logo" style={{ width: '40px', height: '40px', borderRadius: '8px', marginRight: '10px' }} />
               <div>
                 <div className="footer-name">DrishtiRF</div>
                 <div className="footer-tagline">SIGNAL·IQ · Automated RF Intelligence</div>
