@@ -239,7 +239,7 @@ export default function App() {
 
           <div className="navbar-badges">
             <a href="#download" className="nav-download-btn">
-              <span>↓</span> Download v1.1.0
+              <span>↓</span> Download v1.2.0
             </a>
           </div>
         </div>
@@ -302,14 +302,14 @@ export default function App() {
           <p className="hero-subtitle">
             DrishtiRF automatically estimates spectrum parameters, classifies modulation types,
             performs joint FEC decoding, and delivers explainable 3-tier confidence scoring —
-            with <strong>zero prior metadata</strong>.
+            with <strong>zero prior metadata</strong> and <strong>live 60 FPS signal replay</strong>.
           </p>
 
           <div className="hero-cta-group">
             <a href="#download" className="cta-primary">
               <span className="cta-icon">⬇</span>
               Download Desktop Software
-              <span className="cta-version">v1.1.0 · Windows / Linux</span>
+              <span className="cta-version">v1.2.0 · Windows / Linux</span>
             </a>
             <a href="#features" className="cta-secondary">
               Explore Features →
@@ -611,13 +611,13 @@ export default function App() {
                 <span>Windows</span>
               </div>
               <div className="dl-filename">DrishtiRF-Setup.exe</div>
-              <div className="dl-size">74 MB · Windows 10/11 x64 · v1.1.0</div>
+              <div className="dl-size">74 MB · Windows 10/11 x64 · v1.2.0</div>
               <a
                 className="dl-btn primary"
-                href="https://github.com/lileshkatre01/DrishtiRF/releases/download/v1.1.0/DrishtiRF-Setup.exe"
+                href="https://github.com/lileshkatre01/DrishtiRF/releases/download/v1.2.0/DrishtiRF-Setup.exe"
                 download
               >
-                ⬇ &nbsp;Download .exe (v1.1.0)
+                ⬇ &nbsp;Download .exe (v1.2.0)
               </a>
             </div>
 
@@ -626,15 +626,15 @@ export default function App() {
                 <span className="dl-os-icon">🐧</span>
                 <span>Linux</span>
               </div>
-              <div className="dl-filename">DrishtiRF-v1.1-linux.zip</div>
+              <div className="dl-filename">DrishtiRF-v1.2-linux.zip</div>
               <div className="dl-size">Coming soon · Ubuntu 20.04+ / Debian</div>
               <a
                 className="dl-btn secondary"
-                href="https://github.com/lileshkatre01/DrishtiRF/releases/tag/v1.1.0"
+                href="https://github.com/lileshkatre01/DrishtiRF/releases/tag/v1.2.0"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                ⬇ &nbsp;View Release (v1.1.0)
+                ⬇ &nbsp;View Release (v1.2.0)
               </a>
             </div>
 
