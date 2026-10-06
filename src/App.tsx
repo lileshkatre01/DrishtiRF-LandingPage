@@ -614,8 +614,8 @@ export default function App() {
               <div className="dl-size">74 MB · Windows 10/11 x64 · v1.2.0</div>
               <a
                 className="dl-btn primary"
-                href="https://github.com/lileshkatre01/DrishtiRF/releases/download/v1.2.0/DrishtiRF-Setup.exe"
-                download
+                href="https://github.com/lileshkatre01/DrishtiRF/raw/main/Output/DrishtiRF-Setup.exe"
+                download="DrishtiRF-Setup.exe"
               >
                 ⬇ &nbsp;Download .exe (v1.2.0)
               </a>
@@ -630,11 +630,11 @@ export default function App() {
               <div className="dl-size">Coming soon · Ubuntu 20.04+ / Debian</div>
               <a
                 className="dl-btn secondary"
-                href="https://github.com/lileshkatre01/DrishtiRF/releases/tag/v1.2.0"
+                href="https://github.com/lileshkatre01/DrishtiRF"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                ⬇ &nbsp;View Release (v1.2.0)
+                ⬇ &nbsp;View on GitHub
               </a>
             </div>
 
